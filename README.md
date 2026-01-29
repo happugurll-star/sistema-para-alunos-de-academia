@@ -6,7 +6,7 @@ Sistema para cadastro e controle de alunos de academia
 # 2.Buscar alunos cadastrados no banco de dados
 # 3.Login do funcionário com senha
 
-def cadastrar_aluno():
+# def cadastrar_aluno():
     global dados
     while True:
         from datetime import date,timedelta
@@ -45,7 +45,7 @@ def cadastrar_aluno():
                  'plano' : plano }
 
 
-def login_funcionário():
+# def login_funcionário():
     funcionarios_da_empresa = ['Kate', 'Anthony']
     nome = input('Login do funcionário: ').capitalize()
     if nome not in funcionarios_da_empresa:
@@ -58,10 +58,10 @@ def login_funcionário():
                 break
 
 
-def consultar_alunos():
+# def consultar_alunos():
    print(lista_alunos)
 
-def pesquisar_aluno():
+# def pesquisar_aluno():
     compativeis =[]
     nome_pesquisado = input(str('Qual o aluno que deseja buscar?'))
     for aluno in lista_alunos:
